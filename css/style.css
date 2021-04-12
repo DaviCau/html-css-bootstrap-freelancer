@@ -38,6 +38,11 @@ h3 {
     font-size: 30px;
 }
 
+.ms_wrapper75 {
+    width: 75%;
+    margin: 0 auto;
+}
+
 /* navbar */
 #ms_navbar {
     margin: 0;
@@ -46,20 +51,23 @@ h3 {
     border: 0;
 }
 
-#ms_navbar a {
+#ms_navtitle {
+    font-size: 30px;
     color: white;
     font-weight: 700;
 }
-.ms_navtitle {
-    font-size: 30px;
-}
-.ms_navlinks {
+#ms_navlinks a {
     font-size: 18px;
+    color: white;
+    font-weight: 700;
+}
+#ms_navlinks a:hover {
+    color: #1abc9c;
 }
 
 /* jumbotron */
 #jumbotron {
-    padding: 140px 0 50px;
+    padding: 150px 0 60px;
     background-color: #1abc9c;
     min-height: 100px;
 }
@@ -74,7 +82,7 @@ h3 {
 
 /* portfolio */
 #portfolio {
-    padding: 50px 0;
+    padding: 70px 0;
 }
 
 #portfolio h2 {
@@ -92,4 +100,35 @@ h3 {
     width: 100%;
     margin: 10px 0;
     border-radius: 10px;
+}
+
+/* about */
+#about {
+    padding: 70px 0;
+    background-color: #1abc9c;
+}
+
+#about h2 {
+    color: white;
+}
+
+#about p {
+    margin: 10px 0;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+}
+
+#about button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+#about button:hover {
+    background-color: white;
+    color: #2c3e50;
+    transition: all linear 0.5s;
 }
