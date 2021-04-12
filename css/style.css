@@ -1,9 +1,68 @@
-.debug nav [class*="col-"] {
-    min-height: 100px;
+/* common */
+
+/* navbar */
+#ms_navbar {
+    margin: 0;
+    padding: 20px 0;
     background-color: #2c3e50;
-    border: solid 1px red;
+    border: 0;
 }
-.debug #jumbotron [class*="col-"] {
+
+#ms_navbar a {
+    color: white;
+    font-weight: 700;
+}
+.ms_navtitle {
+    font-size: 30px;
+}
+.ms_navlinks {
+    font-size: 18px;
+}
+
+/* jumbotron */
+#jumbotron {
+    padding: 140px 0 50px;
+    background-color: #1abc9c;
+    min-height: 100px;
+}
+
+#ms_avatarimg {
+    display: block;
+    margin: auto;
+    height: 250px;
+}
+
+h1 {
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+h3 {
+    color: white;
+    font-size: 24px;
+}
+
+.ms_separator {
+    line-height: 50px;
+}
+
+.ms_longbar {
+    display: inline-block;
+    width: calc(30% - 4px);
+    margin: 0 5%;
+    border: 2px solid white;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+
+.ms_star {
+    vertical-align: middle;
+    color: white;
+    font-size: 30px;
+}
+
+/* .debug #jumbotron [class*="col-"] {
     min-height: 100px;
     background-color: #1abc9c;
     border: solid 1px red;
@@ -22,4 +81,5 @@
     min-height: 100px;
     background-color: #2c3e50;
     border: solid 1px red;
-}
+} */
+/* /debug */
